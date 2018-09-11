@@ -1,5 +1,6 @@
 var http = require('http'); 
 var mysql = require('mysql');
+
 var mysql_result = null;
 
 var connection = mysql.createConnection({
