@@ -1,0 +1,14 @@
+{
+  "name": "avfortests.loc",
+  "version": "1.0.0",
+  "description": "\"Мой тестовый сервер\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "DaVinci",
+  "license": "ISC",
+  "dependencies": {
+    "mysql": "^2.16.0"
+  }
+}
