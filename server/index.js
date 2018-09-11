@@ -1,6 +1,5 @@
 var http = require('http'); 
 var mysql = require('mysql');
-
 var mysql_result = null;
 
 var connection = mysql.createConnection({
@@ -24,7 +23,7 @@ connection.end();
 function getResponse(request, response) {
     console.log('Sended http request');
     response.writeHead(200, {"Content-Type": "text/html"});
-    response.write(mysql_result);
+    response.write('Возврат результата из базы данных: ' + mysql_result);
     response.end();
 }
 
